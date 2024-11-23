@@ -15,7 +15,19 @@ Follow these steps to set up and run the project:
     docker-compose up --build
     ```
 
-4. **Test the API**
+4. **Set .env variables**
+    - Create a `.env` file in the root directory of the project.
+    - Add the following environment variables to the `.env` file:
+      ```
+      PG_USER=your_pg_user
+      PG_HOST=localhost
+      PG_DATABASE=todo_db
+      PG_PASSWORD=your_pg_password
+      PG_PORT=5432
+      PORT=3000
+      ```
+
+5. **Test the API**
     - Access the API endpoints to interact with todos:
       - Get all todos:
         ```

@@ -18,6 +18,7 @@ Follow these steps to set up and run the project:
 4. **Set .env variables**
     - Create a `.env` file in the root directory of the project.
     - Add the following environment variables to the `.env` file:
+    
       ```
       PG_USER=your_pg_user
       PG_HOST=localhost

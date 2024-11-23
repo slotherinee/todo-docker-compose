@@ -4,7 +4,7 @@ Follow these steps to set up and run the project:
 
 1. **Clone the Repository**
     ```sh
-    git clone <repository-url>
+    git clone [<repository-url>](https://github.com/slotherinee/todo-docker-compose.git)
     ```
 
 2. **Ensure Docker is Installed**
